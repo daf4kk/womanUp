@@ -1,0 +1,107 @@
+.todos-wrapper {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e8f0;
+  border-radius: 20px;
+}
+.todos-wrapper .list {
+  width: 95%;
+}
+.todos-wrapper .todo-list .overdue {
+  background-color: #ef4444 !important;
+}
+.todos-wrapper .todo-list .completed {
+  background-color: #84cc16 !important;
+}
+.todos-wrapper .todo-list .todo {
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fed7aa;
+  border-radius: 20px;
+}
+.todos-wrapper .todo-list .todo .info {
+  width: 100%;
+  margin-left: 0;
+}
+.todos-wrapper .todo-list .todo .info .title {
+  font-size: 24px;
+}
+.todos-wrapper .todo-list .todo .info .content {
+  margin-left: 10px;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  font-weight: 500;
+}
+.todos-wrapper .todo-list .todo .tools {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.todos-wrapper .todo-list .todo .tools button {
+  border: none;
+  background-color: #fdba74;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.todos-wrapper .todo-list .todo .tools input {
+  border: none;
+  background-color: #fdba74;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.todos-wrapper .create {
+  display: flex;
+}
+.todos-wrapper .create input {
+  height: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.todos-wrapper .create button {
+  background-color: #fdba74;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.overdue-tools button {
+  background-color: #dc2626 !important;
+}
+.overdue-tools input {
+  background-color: #dc2626 !important;
+}
+.completed-tools button {
+  background-color: #65a30d !important;
+}
+.completed-tools input {
+  background-color: #65a30d !important;
+}
+.edit-todo {
+  position: fixed;
+  bottom: 0;
+  margin: auto;
+}
